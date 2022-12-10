@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="darkmode.css" id="theme_link">
+    <title>Profil</title>
+</head>
+<body>
+    <header class="section_header">
+        <div class="section_container">
+            <h1>
+                <img src="http://sso.itera.ac.id/assets/img/20221022214122_edo_120140179_student_itera_ac_id.jpg" alt="gambar" class="image_content" width="300 px" height="300 px"/>
+            </h1>
+        </div>
+    </header>
+    <div class="section_awal">
+        <p>Selamat Datang di Halaman Web Saya</p>
+        <p>Nama Saya adalah Edo Sani dari ITERA Prodi Teknik Informatika</p>
+    </div>
+    <div class="container_navigation">
+        <ul class="ul_navigation">
+            <li class="li_navigation"><a href="https://www.facebook.com/edo.sani.35">Facebook saya</a></li>
+            <li class="li_navigation"><a href="https://www.instagram.com/edo.sani.35/">Instagram saya</a></li>
+            <li class="li_navigation"><a href="https://playvalorant.com/en-us/">ayo mabar</a></li>
+        </ul>
+    </div>
+    <br />
+    <section class="section_margin">
+        <div class="section_container">
+            <header class="section_header">
+                <h1 id="tentang">Tentang Saya</h1>
+            <br />
+            <div class="section_content">
+                <p>
+                Saya merupakan mahasiswa aktif program studi Teknik Informatika di ITERA,
+                disini saya sedang belajar mengenai pembuatan website.
+                </p>
+            </div>
+        </div>
+        <div>
+            <video controls>
+                <source src="https://cdn.discordapp.com/attachments/988806325565792319/1050990043369574481/Animasi.mp4" type="video/mp4"/>
+            </video>
+            </header>
+        </div>
+    </section>
+    <br/>
+
+    <section class="section_margin">
+        <div class="section_container">
+            <header class="section_header">
+                <h1 id="riwayat">Riwayat Pendidikan</h1>
+                <br/>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">No</th>
+                            <th rowspan="2">Sekolah</th>
+                            <th colspan="2" style="text-align: center;">Waktu</th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;">Mulai</th>
+                            <th style="text-align: center;">Selesai</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>SDN 2 Pujodadi</td>
+                            <td>2008</td>
+                            <td>2014</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>SMP Muhammadiyah 1 Gadingrejo</td>
+                            <td>2014</td>
+                            <td>2017</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>SMK YPT Pringsewu</td>
+                            <td>2017</td>
+                            <td>2020</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>Institut Teknologi Sumatera</td>
+                            <td>2020</td>
+                            <td>sekarang</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </header>
+        </div>
+    </section>
+    <br/>
+    <section class="1-section section_kontak">
+        <div class="section_container">
+            <header class="section_header">
+                <h1 id="hubungi">Hubungi Saya</h1>
+            <div class="section_content">
+                <form class="content_form" method="post" action="/tugas2.php">
+                    <input class="gutter" type="text" id="nama" name="nama" placeholder="Nama"/>
+                    <input type="text" id="email" name="email" placeholder="E-mail"/>
+                    <br /><br />
+            
+                    Sudah Membaca Data Diri Diatas?
+                    <br /><br />
+                    <input type="radio" id="sudah" name="pilihan" value="Bike" />
+                    <label for="sudah"> Sudah</label><br />
+                    <input type="radio" id="belum" name="pilihan" value="Car" />
+                    <label for="belum"> Belum</label><br />
+                    <br />
+                    
+                    Media Komunikasi
+                    <br /><br />
+                    <input type="checkbox" id="wa" name="comm" value="Whatsapp" />
+                    <label for="wa"> Whatsapp</label>
+                    <input type="checkbox" id="dc" name="comm" value="Discord" />
+                    <label for="dc"> Discord</label>
+                    <br />
+                    <input type="checkbox" id="tele" name="comm" value="Telegram" />
+                    <label for="tele"> Telegram</label>
+                    <input type="checkbox" id="dc" name="comm" value="Line" />
+                    <label for="Line"> Line</label>
+                    <br /><br />
+                    <input class="gutter" type="text" id="nowa" name="nowa" placeholder="No. WhatsApp"/>
+                    <input class="gutter" type="text" id="dcu" name="dcu" placeholder="Discord Username"/>
+                    <input class="gutter" type="text" id="not" name="not" placeholder="No. Telegram"/>
+                    <input class="gutter" type="text" id="nol" name="nol" placeholder="No. Line"/>
+                    <br /><br />
+                    <input type="submit" value="Kirim"/>
+                </form>
+            </div>
+            <br/>
+            <button class="btn_toggle">Light/Dark Mode</button>
+        </header>
+        </div>
+    </section>
+    <script src="tugas4-2.js"></script>
+</body>
+</html>
